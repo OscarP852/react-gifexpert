@@ -13,7 +13,7 @@ export const GiftExpertApp = () => {
     
     return (
         <>
-            <h1>La buscacion de Imagenes</h1>
+            <h1>Buscador de Imagenes</h1>
             <AddCategory 
                 onNewCategory = { onAddCategory }
             />

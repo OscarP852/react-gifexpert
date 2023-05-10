@@ -13,7 +13,7 @@ const getImages = async() => {
 
 useEffect( () =>{
     getImages();
-},[] )
+},[])
     return {
         images,
         isLoading,
